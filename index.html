@@ -527,16 +527,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     }]
                 }
             ];
-            
+        
             var map = new google.maps.Map(document.getElementById('map'), {
                 center: { 
-                    lat: 23.70985613631561,
-                    lng: 120.5629509560018
+                    {lat: -25.363, lng: 131.044}
                 },
                 zoom: 9,
                 styles: grayStyles,
                 scrollwheel: false
             });
+        var marker = new google.maps.Marker({
+    position: {lat: 23.709915080525242,  lng: 120.56265054796553},
+    map: map
+});
         }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-nR9RwuZHLMATlaz09qRwggPtLkKze1Q&amp;callback=initMap">
