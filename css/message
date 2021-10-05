@@ -1,5 +1,5 @@
 
-body {
+.body {
 margin: 200px;
 
 }
@@ -11,7 +11,7 @@ padding: 0px;
 
 }
 
-li {
+.li {
 list-style: none;
 
 width: 500px;
@@ -26,7 +26,7 @@ background-color: pink;
 
 }
 
-textarea{
+.textarea{
 width: 200px;
 
 height: 80px;
