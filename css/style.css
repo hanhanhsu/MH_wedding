@@ -812,7 +812,7 @@ h3 {
 .header-area .main-header-area .main-menu ul li a::before {
   position: absolute;
   content: "";
-  /* background: #C78665; */
+  background-image: url(../img/banner/banner.png);
   width: 100%;
   height: 2px;
   bottom: 0;
@@ -880,7 +880,7 @@ h3 {
 
 /* line 127, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li:hover a {
-  /* background: #C78665; */
+  background: #C78665; 
 }
 
 /* line 132, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
@@ -978,7 +978,7 @@ h3 {
 
 /* line 208, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .social_media_links ul li a:hover {
-  /* color: #C78665; 
+  color: #C78665; 
 }
 
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
