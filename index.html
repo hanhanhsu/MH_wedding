@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/gijgo.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/message.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -485,7 +486,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.slicknav.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
-
+ <script src="js/message.js"></script>
+    
     <!--contact js-->
     <script src="js/contact.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
@@ -496,7 +498,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/main.js"></script>
 
     <script>
-        $('#clock').countdown('2020/01/07', function (event) {
+        $('#clock').countdown('2021/11/14', function (event) {
             $(this).html(event.strftime(
                 '<div class="countdown_wrap d-flex"><div  class="single_countdown"><h3>%D</h3><span>Days</span></div><div class="single_countdown"><h3>%H</h3><span>Hours</span></div><div class="single_countdown"><h3>%M</h3><span>Minutes</span></div><div class="single_countdown"><h3>%S</h3><span>Seconds</span></div></div>'
             ));
@@ -525,10 +527,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     }]
                 }
             ];
+            
             var map = new google.maps.Map(document.getElementById('map'), {
-                center: {
-                    lat: -31.197,
-                    lng: 150.744
+                center: { 
+                    lat: 23.70985613631561,
+                    lng: 120.5629509560018
                 },
                 zoom: 9,
                 styles: grayStyles,
