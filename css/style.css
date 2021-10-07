@@ -38,50 +38,6 @@ body {
 
 /* line 19, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 
-.mbr-section-btn a.btn:not(.btn-form) {
-  border-radius: 100px;
-}
-.mbr-section-btn a.btn:not(.btn-form):hover,
-.mbr-section-btn a.btn:not(.btn-form):focus {
-  box-shadow: none !important;
-}
-.mbr-section-btn a.btn:not(.btn-form):hover,
-.mbr-section-btn a.btn:not(.btn-form):focus {
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
-  -webkit-box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
-}
-
-       
-.btn-md {
-	  padding: 1rem 3rem;
-	  border-radius: 3px;
-.btn {
-	  padding: 1rem 3rem;
-	  border-radius: 3px;
-.btn-success-outline,
-	.btn-success-outline:active {
-	  background: none;
-	  border-color: #d2c609;
-	  color: #d2c609;
-	}
-	.btn-success-outline:hover,
-	.btn-success-outline:focus,
-	.btn-success-outline.focus,
-	.btn-success-outline.active {
-	  color: #3f3c03;
-	  background-color: #f7ed4a;
-	  border-color: #f7ed4a;
-	}
-	.btn-success-outline.disabled,
-	.btn-success-outline:disabled {
-	  color: #3f3c03 !important;
-	  background-color: #f7ed4a !important;
-	  border-color: #f7ed4a !important;
-	}
-
-
-
-
 
 a,
 .button {
