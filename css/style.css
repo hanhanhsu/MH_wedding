@@ -394,16 +394,17 @@ h3 {
 
 /* line 46, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_btn.scss */
 .boxed_btn3 {
-  background: #C78665;
-  padding: 9px 26px;
-  margin-bottom: 0;
-  font-size: 20px;
-  color: #fff;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  display: inline-block;
+  
+ 
+  
+   background: #C78665;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:600px;
+  height:600px;
+
+
 }
 
 /* line 54, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_btn.scss */
