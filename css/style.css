@@ -398,7 +398,9 @@ h3 {
  width:500px;
  height:20px
  background: #C78665;
+ color: #C78665;
  margin:0 auto;
+  display: inline-block;
 }
 
 /* line 54, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_btn.scss */
